@@ -1,0 +1,40 @@
+.red{
+    color: yellowgreen;
+}
+
+.blue{
+    color: #ee1d1d;
+}
+
+.green{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+body{
+    background-color: aqua;
+    text-align: center;
+}
+
+.para{
+    color: gold;
+    background-color: #ee1d1d;
+    border: 5px solid;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    font-weight: 100;
+    padding: 100px;
+    margin: 200px;
+
+}
+
+.yt{
+    text-decoration: none;
+    color:#ee1d1d;
+}
+.bt{
+    color: #ee1d1d;
+    background-color: blueviolet;
+}
