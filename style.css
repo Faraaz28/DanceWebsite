@@ -13,20 +13,21 @@
 }
 
 body{
-    background-color: aqua;
-    text-align: center;
+    /* background-color: rgb(223, 210, 223); */
+    /* text-align: center; */
 }
 
 .para{
     color: gold;
     background-color: #ee1d1d;
-    border: 5px solid;
+    border: 10px solid black;
     text-align: center;
     text-transform: uppercase;
     text-decoration: line-through;
     font-weight: 100;
     padding: 100px;
     margin: 200px;
+    border-radius: 20px;
 
 }
 
@@ -38,3 +39,67 @@ body{
     color: #ee1d1d;
     background-color: blueviolet;
 }
+.span{
+    color: rgb(247, 0, 0);
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+
+}
+
+.opacity{
+    background-color: #ff0000;
+    color: rgb(238, 255, 0);
+}
+
+.first{
+    opacity: 0.1;
+}
+
+.second{
+    opacity: 0.3;
+}
+
+.three{
+    opacity: 0.6;
+}
+.imgbackground{
+ background-image: url(img/Supra.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 50vh;
+}
+
+.hidden{
+    display: none;
+    /* visibility: hidden; */
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-columns: auto auto auto;
+    background-color: blue;
+    padding: 10px;
+    margin: 40px;
+}
+
+.grid-gf{
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.item-col{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.item-row{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
