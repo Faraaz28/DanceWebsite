@@ -1,5 +1,5 @@
 .red{
-    color: yellowgreen;
+    color: rgb(163, 241, 7);
 }
 
 .blue{
@@ -12,9 +12,11 @@
     font-style: italic;
 }
 
-body{
-    /* background-color: rgb(223, 210, 223); */
-    /* text-align: center; */
+
+
+
+.name{
+    color: #f00d0d;
 }
 
 .para{
@@ -102,4 +104,37 @@ body{
     grid-row-start: 1;
     grid-row-end: 4;
 }
+
+.flex-container{
+    display: flex;
+    align-items: baseline;
+    background-color: aquamarine;
+    padding: 10px;
+    height: 600px ;
+    width: 50%;
+    /* justify-content:space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    /* align-items: start;   */
+    /* align-items: end; */
+    /* align-items: stretch; */
+    /* flex-direction: row-reverse;  */
+    /* flex-direction: column-reverse;  */
+    align-items: center;    
+    /* flex-wrap: wrap; */
+
+}
+
+.flex{ 
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(85, 216, 135);
+    padding: 20px;
+    margin:40px ;
+    border: 1px solid #ff0000;
+    
+}
+
+
+
 

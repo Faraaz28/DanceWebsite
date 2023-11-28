@@ -2,5 +2,6 @@
     "livePreview.debugOnExternalPreview": true,
     "livePreview.defaultPreviewPath": "",
     "livePreview.hostIP": "192.168.0.233",
-    "inlineChat.showDiff": true
+    "inlineChat.showDiff": true,
+    "liveServer.settings.port": 5501
 }
